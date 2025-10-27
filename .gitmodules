@@ -1,0 +1,3 @@
+[submodule "recipe-service"]
+	path = recipe-service
+	url = https://github.com/mkubis00/fym-recipe-service.git
