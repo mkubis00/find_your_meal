@@ -1,3 +1,6 @@
 [submodule "recipe-service"]
 	path = recipe-service
 	url = https://github.com/mkubis00/fym-recipe-service.git
+[submodule "food-preferences-service"]
+	path = food-preferences-service
+	url = https://github.com/mkubis00/food-preferences-service
