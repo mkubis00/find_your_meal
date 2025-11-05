@@ -4,3 +4,6 @@
 [submodule "food-preferences-service"]
 	path = food-preferences-service
 	url = https://github.com/mkubis00/food-preferences-service
+[submodule "recipe-search-service"]
+	path = recipe-search-service
+	url = https://github.com/mkubis00/recipe-search-service

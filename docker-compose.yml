@@ -1,0 +1,26 @@
+services:
+  recipe-service:
+    image: "mkvbs/recipe-service:1.0.1"
+    container_name: recipe-service-ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - fym
+  food-preferences-service:
+    image: "mkvbs/food-preferences-service:1.0.0"
+    container_name: food-preferences-service-ms
+    ports:
+      - "8081:8081"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - fym
+networks:
+  fym:
+    driver: "bridge"
